@@ -18,6 +18,15 @@ public class Program
 
     }
 
+    public void DisplayDeck()
+    {
+        Console.WriteLine("\nCurrent Deck:");
+        foreach (string card in Deck)
+        {
+            Console.WriteLine(card);
+        }
+    }
+
     public List<string> Deck { get; } = new List<string>();
     public static void Main()
     {
@@ -59,7 +68,7 @@ public class Program
             }
             else if (choice == "4")
             {
-                //function.DisplayDeck();
+                deck.DisplayDeck();
             }
             else if (choice == "5")
             {
