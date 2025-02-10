@@ -1,10 +1,17 @@
 using System;
-
+using System.Collections.Generic;
 
 public class Program
 {
+    
     public void CreateDeck()
     {
+        if(Deck.Count > 0)
+        {
+            Console.WriteLine("Deck not empty, resetting deck...");
+            Deck.Clear();
+
+        }
         string[] suits = { "Heart", "Spade", "Diamond", "Clover" };
         string[] ranks = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace" };
 
@@ -27,10 +34,52 @@ public class Program
         }
     }
 
+    public void Deal(int numCards)
+    {
+        if(numCards > Deck.Count)
+        {
+            Console.WriteLine("Not enough cards in the deck.");
+        }
+        else
+        {
+            while(numCards > 0)
+            {
+            Console.WriteLine(Deck[0]);
+            Deck.RemoveAt(0);
+            numCards--;
+            }
+        }
+
+    }
+
+
+    public void Shuffle()
+    {
+        if(Deck.Count == 0)
+        {
+            Console.WriteLine("No cards to shuffle...");
+        } 
+        else{
+            int count = Deck.Count;
+            Random random = new Random();
+
+            while (count > 1)
+            {
+                int i = random.Next(count--);
+                (Deck[i], Deck[count]) = (Deck[count], Deck[i]);
+            }
+        }
+        
+            Console.Write("Deck has been shuffled");
+            // Fuwamoco face reveal ain't that bad they look cute.
+    }
+    
     public List<string> Deck { get; } = new List<string>();
+
+
     public static void Main()
     {
-       Program deck = new Program();
+        Program deck = new Program();
         bool exit = false;
 
         while (!exit)
@@ -51,7 +100,8 @@ public class Program
             }
             else if (choice == "2")
             {
-                //function.Shuffle();
+                deck.Shuffle();
+
             }
             else if (choice == "3")
             {
@@ -59,7 +109,7 @@ public class Program
                 string input = Console.ReadLine();
                 if (int.TryParse(input, out int numCards))
                 {
-                    //function.Deal(numCards);
+                    deck.Deal(numCards);
                 }
                 else
                 {
