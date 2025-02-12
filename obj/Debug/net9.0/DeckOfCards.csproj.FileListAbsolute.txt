@@ -1,0 +1,15 @@
+C:\Users\Administrator\Documents\MobDev\DeckOfCards\bin\Debug\net9.0\DeckOfCards.exe
+C:\Users\Administrator\Documents\MobDev\DeckOfCards\bin\Debug\net9.0\DeckOfCards.deps.json
+C:\Users\Administrator\Documents\MobDev\DeckOfCards\bin\Debug\net9.0\DeckOfCards.runtimeconfig.json
+C:\Users\Administrator\Documents\MobDev\DeckOfCards\bin\Debug\net9.0\DeckOfCards.dll
+C:\Users\Administrator\Documents\MobDev\DeckOfCards\bin\Debug\net9.0\DeckOfCards.pdb
+C:\Users\Administrator\Documents\MobDev\DeckOfCards\obj\Debug\net9.0\DeckOfCards.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Documents\MobDev\DeckOfCards\obj\Debug\net9.0\DeckOfCards.AssemblyInfoInputs.cache
+C:\Users\Administrator\Documents\MobDev\DeckOfCards\obj\Debug\net9.0\DeckOfCards.AssemblyInfo.cs
+C:\Users\Administrator\Documents\MobDev\DeckOfCards\obj\Debug\net9.0\DeckOfCards.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\MobDev\DeckOfCards\obj\Debug\net9.0\DeckOfCards.sourcelink.json
+C:\Users\Administrator\Documents\MobDev\DeckOfCards\obj\Debug\net9.0\DeckOfCards.dll
+C:\Users\Administrator\Documents\MobDev\DeckOfCards\obj\Debug\net9.0\refint\DeckOfCards.dll
+C:\Users\Administrator\Documents\MobDev\DeckOfCards\obj\Debug\net9.0\DeckOfCards.pdb
+C:\Users\Administrator\Documents\MobDev\DeckOfCards\obj\Debug\net9.0\DeckOfCards.genruntimeconfig.cache
+C:\Users\Administrator\Documents\MobDev\DeckOfCards\obj\Debug\net9.0\ref\DeckOfCards.dll
